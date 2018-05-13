@@ -46,7 +46,7 @@
 			micBtn = document.createElement('button');
 			micBtn.type = 'button';
 			micBtn.classList.add('si-btn');
-			micBtn.textContent = 'speech input';
+			micBtn.textContent = '';
 			var micIcon = document.createElement('span');
 			var holderIcon = document.createElement('span');
 			micIcon.classList.add('si-mic');
@@ -104,7 +104,31 @@
 			micBtn.classList.remove('listening');
 			if (oldPlaceholder !== null) inputEl.placeholder = oldPlaceholder;
 			console.log("sssssssssssstart the converse API "+inputEl.value);
-			apicall(inputEl.value);
+			var transcript = inputEl.value;
+			if(transcript.toUpperCase() === "HELLO"){
+				console.log("wakeup command");
+				wakeup = true;
+			}
+			else if(transcript.toUpperCase() === "SCROLL DOWN"){
+				console.log("SCROLL DOWN");
+				wakeup = true;
+				window.scrollBy(0, 500);
+			}
+			else if(transcript.toUpperCase() === "SCROLL UP"){
+				console.log("GO BACK");
+				wakeup = true;
+				window.scrollBy(0, -500);
+			}else if(transcript.toUpperCase() === "GO BACK"){
+				console.log("GO BACK");
+				wakeup = true;
+				window.history.back();
+			}
+			else{
+				apicall(inputEl.value);
+			}
+			
+			
+			
 		};
 		
 		function apicall(invar){
@@ -115,7 +139,7 @@
 				    contentType: "application/json",
 				    dataType: "json",
 				    beforeSend: function (xhr) {
-				        xhr.setRequestHeader('Authorization', 'Bearer ya29.c.El-1BXUkjNptOx0T6eSU7m0MOEpi0xfrBW1zCRkBq1yOEoYQJ8fjop0BkeDIWDSHnF-0S1BnutGBuiepsX5YRSINc3vF9HXklRhlQJ3KIyRgiSOxJUzya2okOlMF5EplTQ');
+				        xhr.setRequestHeader('Authorization', 'Bearer ya29.c.El-5BU7i6eHgtith5I1WacWMX14_3UlLt985BXvAgFrDA_WlCwFi9EgHC2k9iwEtIaTKEjB_2LppROIYUDdFtCqznlJkyuz18RjIlQipwoul1M5snXWrBPUMcVrRSxCkpQ');
 				    },
 				    // make sure you respect the same origin policy with this url:
 				    // http://en.wikipedia.org/wiki/Same_origin_policy
@@ -146,22 +170,21 @@
 			//console.log(resp);
 			console.log(resp2);
 			intent = resp2.queryResult.intent.displayName;
-			if(intent === "smartphones_page"){
+			if(intent === "smartphones_page" || intent === "accessories"){
 				fulfilmentMsg = resp2.queryResult.fulfillmentMessages;
 				$.each(fulfilmentMsg, function( index, value ) {
 					  console.log( index + ": " + value );
 					  textResp = eval(value);
 					  console.log(textResp);
 					  console.log("index "+index+" the text response "+textResp.text.text[0]);
-					  if(index === 1){
+					  if(index === 0){
 						  agentResp1 = textResp.text.text[0];
-					  }else if(index == 2){
+					  }else if(index == 1){
 						  agentResp2 = textResp.text.text[0]
 					  }
 					  console.log("redirect to smartphone page");
-					  window.location.href = "http://localhost:8080/praise/smartphones.html";
-					  
 					});
+				window.location.href = "http://localhost:8080/praise/"+agentResp1;
 			
 			}else{
 				fulfilmentMsg = resp2.queryResult.fulfillmentMessages;
@@ -206,15 +229,7 @@
 			// append transcript to cached input value
 			
 			/*console.log("transcript "+ transcript);
-			if(transcript.toUpperCase() === "HELLO"){
-				console.log("wakeup command");
-				wakeup = true;
-			}
-			else if(transcript.toUpperCase() === "SCROLL DOWN"){
-				console.log("SCROLL DOWN");
-				wakeup = true;
-				window.scrollBy(0, 200);
-			}
+			
 			else{*/
 				inputEl.value = transcript;
 				// set cursur and scroll to end
@@ -229,8 +244,6 @@
 
 			restartTimer();
 		};
-		
-		
 
 		micBtn.addEventListener('click', function(event) {
 			event.preventDefault();

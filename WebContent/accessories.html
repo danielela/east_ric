@@ -44,6 +44,11 @@
     <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="//gateway.answerscloud.com/verizonwireless/production/trigger/foresee_trigger.js" src="./verizon_files/foresee_trigger.js"></script>
     <script type="text/javascript" src="./verizon_files/foresee_surveydef.js"></script>
     <link type="text/css" rel="stylesheet" media="screen" href="./verizon_files/host.css" disabled="">
+
+    <link rel="stylesheet" href="speech-input.css" type="text/css">
+    <link rel="stylesheet" href="demo.css" type="text/css">
+
+
 </head>
 
 <body id="product-listing" class="product-listing-page" style="" data-inq-observer="1">
@@ -515,21 +520,25 @@
                                         <ul>
                                             <li class="" data-search="s"> <a href="https://www.verizonwireless.com/my-verizon/" onclick="vgn_hbLink(&#39;desktop:global:my+verizon+-+customer:sign+in&#39;);">Sign In</a> </li>
                                             <li class="" data-search="r"> <a href="https://login.verizonwireless.com/accessmanager/public/c/reg/start?next_e=" onclick="vgn_hbLink(&#39;desktop:global:my+verizon+-+customer:register&#39;);">Register</a> </li>
-                                            <li class="" data-search="l"> <a href="https://www.verizonwireless.com/support/my-verizon-learn-more-help/" onclick="vgn_hbLink(&#39;desktop:global:my+verizon+-+customer:learn+more&#39;);">Learn More</a> </li>
                                         </ul>
                                     </div>
                                 </div>
                             </li>
                         </ul>
                     </div>
-                    <form name="vgnSearchForm" id="vgn_search" class="vgnSearchForm" action="https://www.verizonwireless.com/search/vzwSearch" style="display: block;">
-                        <label for="vgn_q">I am looking for</label>
-                        <input type="text" class="vgn_search_text placeholder" text="search input field" aria-label="Search" autocomplete="off" name="q" id="vgn_q" maxlength="100"> <span class="vgn_input_field_txt">Search Input Field</span>
-                        <button type="button" class="vgn-icon-close-solid-circle" id="vgn_clear_btn"> <span class="vgn-icon-searchclear" aria-hidden="true"></span><span class="vgn_clear_btn_txt">Clear search field</span> </button>
-                        <button type="submit" class="vgn_search_btn vgn-icon-search" id="vgn_search_btn" aria-label="Search"> <span class="vgn-icon-search" aria-hidden="true"></span><span class="vgn_search_btn_txt">Search</span> </button> <span class="vgn-icon-error" aria-hidden="true"></span>
-                        <div class="vgn-error-message" aria-hidden="true"></div>
-                        <div class="gn-typeahead-search" id="gn-typeahead-search" aria-label="Search results" role="alert" style="display: none;"></div>
-                    </form> <a id="vgn_rnav_info" href="https://www.verizonwireless.com/accessories/sale/#" onclick="vzgn_r.onclickRSec();"></a>
+                    <div name="vgnSearchForm" id="vgn_search" class="vgnSearchForm" action="https://www.verizonwireless.com/search/vzwSearch" style="display: block;">
+                       
+                       Microphone 
+                        <div class="callout" style="position: absolute;right: 300px;top: 40px;">
+                                          <div class="bubble" style="position: absolute;top: -30px;left: 60px;" >
+                                            <textarea class="speech-input" style="display: block; margin: 0px -14px 12px 0px; width: 369px; height: 191px;" placeholder="Click and Speak" rows="10" cols="40"></textarea>
+                                          </div>
+                                          <div class="triUp"></div>
+                                        </div>
+                        
+                    </div>
+
+                    <a id="vgn_rnav_info" href="https://www.verizonwireless.com/accessories/sale/#" onclick="vzgn_r.onclickRSec();"></a>
                     <div id="vgnEnd" class="vgn_contentEnd" tabindex="-1"></div>
                 </div>
                 <div id="vgnLastNode"></div>
@@ -4044,6 +4053,10 @@ Thermostat E</span></h3>
         <div class="screen_reader">Activate to launch comment card</div>
     </div>
     <script id="nuance-acif-js" src="./verizon_files/acif-loader.js"></script>
+
+    <script  src="verizon_files/buttons.js"></script>
+    <script src="speech-input.js"></script>
+
     <div id="tc-chat-anchored" style="position: fixed; bottom: 0; right: 20px; z-index: 99999;" aria-live="polite">
         <div onclick="inqFrame.Inq.C2CM.agrty(0); return false;" onmouseover="this.style.cursor=&#39;pointer&#39;">
             <style tabindex="0">
