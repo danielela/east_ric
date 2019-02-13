@@ -6,7 +6,20 @@ school management too, since they are responsible for the childrens saftey after
 
 
 Objective:
-To solve this problem, the solution is to develop an app which will 
+To solve this problem, the solution is to develop an app which will track childrens entry and exit into the bus and update status to parents and school mgmt. We plan to provide this solution with optimum resource utilization by making use of existing mobile devices.
 
 Functionality:
+The Driver/Bus has a designated mobile device which has a defined starting and destination route. The Students for that route are already registered allong with their boarding locations/stop. The route has a scheduled time, and the parents can track the bus route all the way from origination untill the final destination allong with their childs onboarding status. The School mamangement can also track each of their bus status across all its routes. 
+When a child does not board or unboard the school bus at the designated stop the parent and the school are alerted about the event. 
+When the school bus is diverted from its regular route to a new unusuall route the parents and the school are alerted about the event. if the school mgmt wish to talk to the driver or the bus assistant the app is provisioned to make video calls.
+The bus route tracking is developed on Google maps app so that to show estimated arrival time, current traffic.
 
+Device in the Bus:
+The app should start the camera(both front and back) when the bus is stationary, and the camera should be closed when the bus is moving.
+When the bus is moving the route map allong with the current traffic status should be displayed.
+No regular phone calls and message or usage of any other apps are allowed during the transit. 
+
+Device with the Parent:
+
+ 
+ 
