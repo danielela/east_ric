@@ -1,0 +1,12 @@
+PRAISE THE LORD 
+
+Problem Statement:
+Parents tracking their childrens school bus travel to and from school are challenging and insecure these days. This is a problem for the 
+school management too, since they are responsible for the childrens saftey after they board the school bus. 
+
+
+Objective:
+To solve this problem, the solution is to develop an app which will 
+
+Functionality:
+
