@@ -1,0 +1,269 @@
+Elavarasan Varadarajan
+Phone: +1-732-857-0400
+daniel.elavarasan@gmail.com
+https://www.linkedin.com/in/daniel-elavarasan/ 
+
+SUMMARY:
+
+●	Over 13+ years of Software Design, Architect and Development experience of Web based applications using Java , JEE, JS, Cloud  and Open Source technologies.
+•	Proficient in Interacting with Business, Design and Architect Solutions, Development, Unit Testing  and Deployment following Agile(SCRUM) methodology.
+●	Expertise in Java/JEE(Servlets, JSP, EJB, JPA, JMS), Struts, JSF, Spring, Hibernate, RESTfull, Microservices and SOAP Web Services, jQuery, NodeJs, DOJO, ExtJs, AngularJs, MEAN stack, JSON, and XML
+●	Experienced in working with ORM technology like Hibernate, JPA and Eclipse Link
+●	Strong expertise in RDBMS and NoSQL, DB2, MS SQL Server, including SQL/PL SQL, Oracle 11g.
+●	Extensive hands-on experience working with Data rich interactive Single Page applications.
+●	Experienced in Spring Batch and Autosys job development. 
+●	Experienced working with source code management tools like GIT, Bitbucket and build tools like Ant, Maven and Gradle, CICD pipeline with Jenkins
+●	Extensive hands-on experience creating and consuming RESTfull services with ExtJs, DOJO, Angular and jQuery front end MVC, MVVM frameworks.
+●	Hands-on experience in using JavaScript tools like Grunt, Gulp, Jasmine Unit testing.
+●	Expert in developing workflow solutions using Instabase for data extraction.
+●	Proficient in ITSM and ServiceNow process in handling Production and DR releases.
+●	Passionate and hungry to learn new technologies and process for a challenging environment in enterprise systems.
+●	Excellent communication, presentation and project management skills.
+●	Managed people across onsite and offshore to deliver application within the planned timeline.
+
+
+TECHNICAL PROFIENCIEICS:
+
+Language	: Java 8, JEE (Servlets 3.0, JSP, JSTL, EJB 3.0,JMS, JPA, JavaMail), HTML 5, CSS, Bootstrap, JavaScript, AJAX, ExtJs 5.0, 6.0, AngularJS 1.5, jQuery 1.11, DOJO 1.10, YUI, Shell scripting, XML, XSLT, Restful & SOAP Web Services, Python, Flask
+Frameworks.                    : Struts 1.2, 2.0 JSF 1.3, Spring Framework 5.0 (IOC, MVC, Restful services, Spring Microservices, Spring Security, Spring DAO, Spring Boot, Spring Batch ), Hibernate 5.6
+Database		: MySQL 6.0, SQL Server 2005, DB2, Oracle 11g
+Cloud	: Google Cloud (AppEngine, ComputeEngine, Kubernetes, CloudFunctions, IAM, Bigtable,  Storage, Datastore, CloudSQL), Dialogflow, Google Cloud API, AWS (S3, EC2, IAM)
+IDE			: Eclipse, MyEclipse, IBM RAD 8.0, NetBean, InteliJ, WebStrom.
+Tools			: IBM Content Manager, IBM DataPower, SonarQube, JAZZ RTC, Jenkins, RUP UML
+Servers			: Tomcat 8.0, WebSphere7.0, JBoss 7,WebLogic.
+Version control		: GIT, Bitbucket, CVS, PVCS.
+Other Utilities		: Spring Batch, Shell Script, Junit, Mockito, Ant, Maven, Gradle, ClearCase, SOAP UI
+OS platform		: Windows, UNIX, Linux, Solaris
+
+Work Experience:
+
+	Working as Software Engineer at JPMorgam Chase & Co from Dec 2018 to present.
+	Worked as AI Consultant at Accenture US from Apr 2017 to Nov 2018.
+	Worked as Technical Lead at Tata Consultancy Services from Feb 2016 to March 2017. 
+	Worked as Senior Associate Projects at Cognizant Technology Solutions from June 2009 to Jan 2016.
+	Worked as Java Team Lead at 3Edge Solutions from April 2007 to June 2009.
+	Worked as Software Engineer at Prelude SolutionProviders (Now Prelude Sys) from March 2006 to April 2007
+	Worked as Software Engineer at SRM InfoTech, from Jan 2006 to March 2006
+	Worked as Lecturer at Vel’sSrinivasa College of Engineering & Tech from Jan 2004 to Dec 2005
+Education:
+•	Master of Engineering in Software Engineering from Anna University, India 2004
+•	Bachelor of Engineering in Computer Science and Engineering from University of Madras, India 2002
+
+
+PROFESSIONAL EXPERIENCE 
+
+Software Engineer at JPMorgan Chase & Co NJ from Dec 2018 to present.
+Client Document Solutions - Asset & Wealth Management (AWN)
+
+•	Develop and Manage Webservices for AWM to store and retrieve documents, document metadata
+•	As part of CDS team I also managed the backend IBM Content Manager Document repository
+•	Worked on Proof-of-concept to migrate the Document Management solution to Cloud AWS S3 and Mongo DB.
+•	Developed and managed the CICD code deployment pipeline in internal Cloud.
+
+Technologies: Spring Restfull, Spring Boot, AWS- S3, GAIA (private cloud), DB2, Mongo DB
+
+Applied Intelligence Consultant at Accenture US from March 2017 to Nov 2018.
+
+(Accenture – CapitalOne, Richmond, VA)				09/2018 – Nov 2018
+Capital Markets Assets Management (CMAM) Automation 
+
+•	As a successful implementation of previous assignment for CapitalOne, I was called to Implement similar solution for CMAM Automation.
+•	Developing Instabase workflow and data filter rules for data extraction from scanned image documents.
+•	Developing RESTfull services to execute the data extraction workflow from external batch and ingest to downstream applications.
+
+Technologies: Instabase, Python, Flask, Spring Restfull, Spring Boot, AWS
+
+(Accenture – Verizon, Basking Ridge, NJ)				03/2018 – 08/2018
+AskVz ChatBot
+ 
+•	Module lead for the frontend development for AskVz chatbot.
+•	Developed Spring RESTfull webservices for chatbot to interact with backend Dialogflow service.
+•	Lead the UI team working on MEAN stack technology.
+•	Designed and developed many re-usable Angular directives for carousel and cards.
+•	Implemented Mockito, Junit test framework, and CreditCard encryption, to comply with organization standards.
+
+Technologies: Angular Js, Spring Restfull, Spring Security, Spring Boot, Mockito, Junit.
+
+(Accenture – CapitalOne, Richmond, VA)				10/2017 – 02/2018
+Commercial Markets (Derivatives Onboarding) Automation 
+
+•	Analyze Instabase and Leverton products and recommend best tool for Data extraction tool.
+•	Started as a POC project and went on to implement this project in Production for real time Business.
+•	Develop Instabase workflow and data filter rules for data extraction from scanned image documents.
+•	Developed RESTfull services to execute the data extraction workflow from external batch or API
+
+Technologies: Instabase, Python, Flask, Spring Restfull, Spring Boot, AWS
+
+
+
+(Accenture – T. Rowe-Price, Baltimore, MD)				04/2017 – 08/2017
+Virtual Agent Automation
+
+•	Virtual Agent UI module owner, responsible for developing the UI for the chatbot.
+•	Interact with Call center team and develop the chatbot for use cases with high frequency service requests via TTY
+•	Developed chatbot using MEAN stack and vagrant environment.
+
+Technologies: MEAN stack, Vagrent, AWS.
+
+Technical Lead at Tata Consultancy services from Feb 2016 to March 2017.
+
+(Tata Consultancy services – JPMorgan Chase, Whippany, NJ) 		02/2016 – 03/2017
+Event Management System (EMT)
+Module Lead
+
+•	Strong development experience using ExtJs MVC framework and Spring Restful Services. 
+•	Module owner of Restfull Web services and implemented security layer using Spring Security over the services which requires authentication for all service access.
+•	Integrated the application development with automatic code scanning services to ensure code quality and get rid of security vulnerabilities during code development.
+•	Implemented sencha CMD build process for ExtJs code build to prepare the JavaScript code for Production releases.
+•	Developed Spring Batch and setup Autosys job using Quarts schedulers
+•	Familiar with GAIA and AIM deployment, I was part of the AIM to GAIA cloud migration.
+•	Involved in project Story board discussions, estimation, analysis, High level design, Technical design and Unit Test case design documents.
+
+
+Technologies: ExtJs 4.2, Sencha CMD, Spring Restfull Services, Spring Security, DB2, Maven, JSON, CVS, Tomcat.
+
+
+Senior Associate Projects at Cognizant Technology Solutions from June 2009 to Jan 2016.
+
+(Cognizant Technology Solution - Chubb Insurance, Warren, NJ) 		03/2015 – 01/2016
+Global IBNR System
+Senior Developer
+
+•	Strong development experience using DOJO and JSF Framework.
+•	Developed Aggregation page which is Data rich and highly interactive single page solution.
+•	Developed RESTful services to interact with front end DOJO components and back end business layer.
+•	Implemented DynaCache in WebSphere server environment.
+•	Developed SpringBatch andAutosys jobs
+•	Involved in project estimation, analysis, High level design, Technical design andUnit Test case design documents.
+•	Created new DOJO custom number component to accept 10.10 number formats and to remove the default 7 digit number rounding.
+•	Created a new cross domain custom DOJO build to fine tune the javascript resources.
+•	Implemented Sonarqube tool for code review.
+•	Experience in profiling the project and fine-tuning application performance by analyzing Heap Memory using VisualVM.
+
+Technologies: JSF 1.2, DOJO 1.6, AJAX, Angular JS, JSON,RESTful Services,  EJB 3.0, JMS,JPA, DB2, RAD 8.0, WAS 7.5, CVS.
+
+Cognizant Technology Solution
+(American International Group, Inc. (AIG), Berkeley Heights, NJ)			05/2013 – 02/2015 
+Global Document Management System (GDMS)
+Senior Developer
+
+•	Designed the webservices application to interact with various internal and external data sources / web services.
+•	Developed the webservices to accommodate any new country implementation without any code changes requiring for it, with just database and resource configurations.
+•	Integrated with external services like Salesforce, GOALD, GOALS, STREAM,
+•	Extensive hands-on experience in developing new SOAP webservices and consuming external services.
+•	Used SOAP-UI tool to test the webservices.
+•	Handled multiple development teams across globe located out of Mexico, South Africa, Philippians, Australia and New Zealand.
+•	Created work breakdown structures (WBS), estimated the with impact analysis for new development effort and created design documents to hand-over to offshore team for implementation.
+•	Overseeing SDLC, converting requirements to functional specifications, as well as design, implement, test systems and perform user acceptance.
+•	Worked with multiple security teams to consume and expose webservices via three DMZ zones.
+•	Hands on experience using profiling tools like jProfiler.
+
+Technologies: SOAP JAXB, JAX-WS, AXIS webservices, Salesforce, WAS 7.0, RAD 7.5, IBM DataPower, SOAP-UI, PVCS, ANT, JUnit
+
+Cognizant Technology Solution
+(American International Group, Inc. (AIG), Jersey City, NJ)			07/2012 – 05/2013
+NuVue+ (Global Implementation)
+Senior Developer
+
+•	As a senior developer I have involved in Architecture design of the application.
+•	Extensive hands-on experience using J2EE, SOAP WebServices, DOJO, jQuery.
+•	Leading a team size of 8 offshore developers.
+•	Developed POC to do feasibility study of technologies.
+•	Worked with AIG technology amendment team to propose jQuery as approved technology for software development and got it approved.
+•	I owned the responsibility of offshore deliverables. I interact with offshore team and mentor the resource to adhere to the delivery timeline.
+
+Technologies: Servlets, JSP, Spring MVC, Hibernate, SOAP Webservices, DOJO 1.3, jQuery 1.5, WAS 7.0, RAD 7.5, PVCS, ANT, JUnit
+
+Cognizant Technology Solution
+(American International Group, Inc. (AIG)/ChartisInsurance,Chennai,India)			08/2011 – 06/2012
+NuVue Enhancement
+Lead Developer
+
+•	After the wide acceptance of the NuVue application by AIG business users, more functions were requested.
+•	Worked on enhancement modules like bulk file upload and download.
+•	Expert in creating a new Java Applet for bulk file upload solution and integrated with the web application.
+•	Created new algorithm for chunking files into small packets and transferring over HTTP protocol.
+•	Strong hands on experience in using DOJO for creating rich user interface.
+•	I owned the offshore team and the deliverables and will report to the onsite manager.
+•	Implemented internationalization (i18N) using DOJO.
+•	Experienced in creating High level design, Low level design and Technical design documents.
+
+Technology: Servlets,JSP,Spring MVC, Hibernate,  DOJO, Java Applet, SOAP webservices, DB2, WAS, RAD, ANY, JUnit
+
+Cognizant Technology Solution
+(American International Group, Inc. (AIG)/ChartisInsurance,Chennai, India)			05/2010 – 07/2011
+NuVue
+Lead Developer
+
+•	NuVue application is a document viewer web application for underwriting documents.
+•	Strong development experience in using Spring MVC, Hibernate, DOJO, SOAP webservices.
+•	Quickly learnt DOJO and implement complex UI components like TreeGrid, DataGrids with filtering.
+•	With strong object oriented concepts I was able to implement file zipping and downloading, Java Mails.
+•	Lead the offshore team size of fourand owned the deliverables from the offshore.
+
+Technology: Servlets, JSP, Spring MVC, Hibernate,  JSTL, DOJO, SOAP webservices, DB2, WAS, RAD, PVCS, ANT, JUnit
+
+Cognizant Technology Solution
+(American International Group, Inc. (AIG)/ChartisInsurance,Chennai, India)			02/2010 – 05/2011
+Domestic Brokerage Group Content management System (DBGCMS) Services
+Lead Developer
+
+•	DBGCMS is a webservices to handle the entire underwriting document with back end IBM content management system.
+•	Expert in IBM Content Manager, developing webservices to handle documents CRUD operation.
+•	Designed the webservices such a way that the services can be inherited and enhanced in the future.
+•	Created the Technical design document and Unit test case documents.
+•	Created audit database to handle the transaction statuses.
+
+Technology: Java, JAXB SOAP webservices, DB2, WAS, RAD.
+
+Cognizant Technology Solution
+(Metropolitan Life Insurance Company,Chennai, India)			06/2009 – 01/2010
+Institutional Production Management(INST PM)
+Developer
+
+•	Involved in Application maintenance and Level2 production support activities.
+•	Handled multiple application like Financial WorkStation, Pensions WorkBench, Hyatt and OEMS applications, and batch jobs.
+•	Created runbooks and issue tracker procedures for smooth execution of production support.
+•	Involved in weekly status calls to provide the status of theoffshoreteam’sweeklyactivities.
+
+Technology: Java, Web Sphere Portlet Server, IBM Lotus Notes, Citrix.
+
+3Edge Solutions from April 2007 to June 2009
+ - Java Team Lead
+
+
+Carrier Excellence/Achievements:
+•	Puraskar Award: Star of the Quarter Q4 2010 (Cognizantn India)
+•	Puraskar Award: Star of the Quarter Q4 2011 (Cognizantn India)
+•	Star Faculty of the Month April 2011 (Cognizantn India)
+•	Star Faculty of the Month May 2011 (Cognizantn India)
+•	Star Faculty of the Month July 2011 (Cognizantn India)
+•	Goliath of the Quarter: Q1 2013 (Cognizant, USA )
+•	Winner in North America HackathonNov 2014 (Cognizant, USA)
+•	Developer Excellence Award 2015 (Cognizant, USA)
+•	Global AI HackathonQ3 Finalist 2018 (Accenture, USA)
+
+
+
+Certifications:
+	AWS Certified Cloud Practitioner 
+	Coursera: Google Cloud Platform Fundamentals – Core Infrastructure
+	Coursera: Google Cloud Platform Big Data and Machine Learning Fundamentals
+	IBM Certified Rational Application Developer 7.0
+	Sun Certified Java Developer 4.0
+
+
+PERSONAL DETAILS:
+
+•	Name		: Elavarasan
+•	Father’s Name	: Varadarajan
+•	Date of birth	: 29th June 1979
+•	Sex		:Male
+•	Passport	: K5040911
+•	Visa Status	: Green Card 
+DECLARATION:
+
+I hereby declare that the information furnished above is true to the best of my knowledge. 
+
+ElavarasanVaradarajan
+	
